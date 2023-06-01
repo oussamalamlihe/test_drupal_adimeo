@@ -1,0 +1,8 @@
+name: Event
+description: Manage block event and unpublish cron.
+package: Custome
+type: module
+core_version_requirement: ^9.2 || ^10
+dependencies:
+ - drupal:block
+ - drupal:config
